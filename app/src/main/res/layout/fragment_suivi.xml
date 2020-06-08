@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SuiviFragment"
+    android:padding="16dp"
+    android:id="@+id/suiviframe">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >/
+
+        <TextView
+            android:layout_width="66dp"
+            android:layout_height="32dp"
+            android:text="Number" />
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="32dp"
+            android:text="Process" />
+
+        <TextView
+            android:layout_width="66dp"
+            android:layout_height="32dp"
+            android:gravity="end"
+
+            android:text="Status" />
+    </LinearLayout>
+
+
+    <!-- TODO: Update blank fragment layout -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_marginTop="20dp"
+        android:id="@+id/RecyclerView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical" >
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="20000dp"
+        android:visibility="invisible"
+        tools:visibility="visible" />
+
+</FrameLayout>

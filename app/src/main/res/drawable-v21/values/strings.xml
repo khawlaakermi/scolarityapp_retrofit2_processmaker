@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Scolarité</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="error_field_required">Champs vide</string>
+    <string name="error_invalid_password">taille > 5</string>
+    <string name="error_invalid_email">Des lettres seulement</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Scolarité</string>
+    <string name="nav_header_subtitle">Menu</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="home_second">Home Second</string>
+</resources>
